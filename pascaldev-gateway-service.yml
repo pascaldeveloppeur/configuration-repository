@@ -12,7 +12,7 @@ spring:
           predicates:
             - Path=/api/v1/customers/**
         - id: account-service
-          uri: lb://ccount-service
+          uri: lb://account-service
           predicates:
             - Path=/api/**
         - id: order-service
